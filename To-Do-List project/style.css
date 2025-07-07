@@ -1,0 +1,53 @@
+body{
+    background:linear-gradient(#819067,#0A400C); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+   color:#0A400C; 
+}
+#box{ 
+    /* container ko heigth nhi doge to vo center me kaise place agr display flex kr rhe the tb krega so height dena must h */
+    /* height: 100vh;   */
+    /* margin: [top] [right] [bottom] [left]; */
+     margin: 100px  35% 300px;
+     padding: 30px;
+     border-radius: 5px;
+     background-color:#FEFAE0;
+}
+
+#ans{
+    margin: 15px;
+}
+#input{
+    height: 30px;
+    width: 200px;
+    border:none;
+    border-radius: 20px;
+}
+#button{
+    height: 35px;
+    width: 50px;
+    border-radius: 20px;
+    border:none;
+    background-color:#819067;
+    cursor: pointer;
+ }
+ #button:hover{
+     background: #B1AB86;
+ }
+ li span{
+    display: flex;
+    background-color: #819067;
+    border-radius: 30px;
+    font-size:20px ;
+    justify-content: center;
+    cursor:pointer;
+    /* background-color: aliceblue; */
+    width: 50px;
+
+     
+ }
+ li span:hover{
+    background: #B1AB86;
+ }
