@@ -1,0 +1,35 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(#578FCA);
+    color: #3674B5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#box{
+    width: 400px;
+    background-color: white;
+    margin: 200px 400px;
+    border-radius: 5px;
+     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);;
+}
+h1{
+   color: #3674B5;
+    padding-left: 90px;
+}
+#ans{
+ padding-left: 10px;
+}
+#button{
+    margin:20px;
+     margin-left: 150px;
+      color: #fff;
+      background-color:#578FCA;
+      border: none;
+      border-radius: 20px;
+      height: 30px;
+      cursor: pointer;
+      
+}
+#button:hover{
+    background-color:#0b72df ;
+}
